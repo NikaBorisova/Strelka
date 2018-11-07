@@ -1,0 +1,44 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,700&subset=cyrillic');
+
+body {
+  color: #fff;
+
+  font-family: "Fira Mono", monospace;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+section {
+  height: 80vh;
+
+  background-image: url("bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+nav {
+}
+
+nav ul {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  left: 0;
+
+  display: flex;
+
+  width: 900px;
+  margin: 0 auto;
+  padding: 10px 15px;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  background-color: blue;
+
+  font-size: 16px;
+
+  justify-content: space-between;
+}
