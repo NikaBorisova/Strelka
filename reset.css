@@ -18,11 +18,8 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-
 	vertical-align: baseline;
-
 	border: 0;
-
 	font: inherit;
 	font-size: 100%;
 }
@@ -47,6 +44,5 @@ q:before, q:after {
 }
 table {
 	border-spacing: 0;
-
 	border-collapse: collapse;
 }
